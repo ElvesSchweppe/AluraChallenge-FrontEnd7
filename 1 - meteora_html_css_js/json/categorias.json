@@ -1,0 +1,44 @@
+[
+    {
+        "imagem" : "./src/assets/desktop/categorias/camisetas.png",
+        "alt": "Uma camiseta verde",
+        "categoria": "Camisetas",
+        "filtro": "camisetas"
+    },
+
+    {
+        "imagem" : "./src/assets/desktop/categorias/bolsas.png",
+        "alt": "Uma bolsa marrom",
+        "categoria": "Bolsas",
+        "filtro": "bolsas"
+    },
+
+    {
+        "imagem" : "./src/assets/desktop/categorias/calcados.png",
+        "alt": "Um par de tênis coloridos",
+        "categoria": "Calçados",
+        "filtro": "calcados"
+    },
+
+    {
+        "imagem" : "./src/assets/desktop/categorias/calcas.png",
+        "alt": "Uma pilha com 5 calças Jeans",
+        "categoria": "Calças",
+        "filtro": "calcas"
+    },
+
+    {
+        "imagem" : "./src/assets/desktop/categorias/casacos.png",
+        "alt": "Uma Jaqueta Marrom",
+        "categoria": "Casacos",
+        "filtro": "casacos"
+    },
+
+    {
+        "imagem" : "./src/assets/desktop/categorias/oculos.png",
+        "alt": "Um par de óculos escuros com lentes arredondadas e armação dourada.",
+        "categoria": "Óculos",
+        "filtro": "oculos"
+    }
+
+]

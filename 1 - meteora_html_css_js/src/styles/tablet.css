@@ -1,0 +1,67 @@
+@media screen and (max-width: 1439px) {
+    .barra-navegacao {
+        font-size: 13px;
+    }
+    
+    .nav-links, .logo-links {
+        gap: 20px;
+    }
+    
+    .gatilho-menu-hamburguer, .menu-hamburguer {
+        display: none;
+    }
+    
+    .logo-nav {
+        height: 24px;
+    }
+    
+    .text-buscar {
+        width: 145px;
+        font-size: 13px;
+    }
+    
+    .btn-buscar {
+        width: 67px;
+        font-size: 13px;
+        weight: 400;
+    }
+        
+    .ancorarBusca{
+        position: fixed;
+        top: 12px;
+        right: 110px;
+    }
+    
+    #sugestaoBusca {
+        width: 125px;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+    .img-carrossel-desktop, .img-carrossel-mobile {
+        display: none;
+    }
+
+    .img-carrossel-tablet {
+        display: block;
+    }
+
+    .ajuste-card-facilidades {
+        width: 78%;
+    }
+
+    .form-newsletter {
+        width: 90%;
+    }
+
+    .rodape {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}

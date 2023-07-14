@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meteora</title>
+    <link rel = "icon" href = "./src/assets/Favicon-64px.png" sizes="32x32">
+    <link rel = "stylesheet" href = "./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/tablet.css">
+    <link rel="stylesheet" href="./src/styles/mobile.css">
+    <link rel="stylesheet" href="./src/styles/telas4k.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <header>
+      <div class="barra-navegacao">
+        <input type="checkbox" class="gatilho-menu-hamburguer">
+        
+        <div class="menu-hamburguer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <div class="barra-logo-links-form">
+          <nav class="logo-links">
+            <a href="#"><img src="./src/assets/Desktop/logo_desktop.png" class="logo-nav" alt="Logo da Meteora"></a>
+            <ul class="nav-links">
+              <li><a class="nav-links-link" href="#">Home</a></li>
+              <hr class="menu-separador">
+              <li><a class="nav-links-link" href="#">Nossas lojas</a></li>
+              <hr class="menu-separador">
+              <li><a class="nav-links-link" href="#">Novidades</a></li>
+              <hr class="menu-separador">
+              <li><a class="nav-links-link" href="#">Promoções</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
+      <div class="buscar_flutuante">
+        <form class="nav-busca">
+          <div class = "ancorarBusca">
+            <input class="text-buscar" type="text" placeholder="Digite o produto" id="campoPesquisa"> <!--onkeyup="pesquisaTextual()"-->
+            <ul id="sugestaoBusca" class="inativa"></ul>
+          </div>
+          <input id='botaoBuscar' type="button" class="btn-buscar" value="Buscar">
+        </form>
+      </div>
+      
+    </header>
+    
+    <section id="carouselExampleCaptions" class="carousel slide posicao-carrossel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="ajuste-carrossel esq_1">
+            <img class="img-carrossel img-carrossel-desktop" src="./src/assets/Desktop/banner_carousel1_ 1440.png"  alt="Uma mulher jovem, branca de cabelos longos e castanhos, em pé, braços atrás do corpo, usando Jeans e uma jaqueta, salmon reflexivo, descoladíssima!">
+            <img class="img-carrossel img-carrossel-tablet" src="./src/assets/Tablet/banner_carousel1_768.png"  alt="Uma mulher jovem, branca de cabelos longos e castanhos, em pé, braços atrás do corpo, usando Jeans e uma jaqueta, salmon reflexivo, descoladíssima!">
+            <img class="img-carrossel img-carrossel-mobile" src="./src/assets/Mobile/banner_carousel1_375.png"  alt="Uma mulher jovem, branca de cabelos longos e castanhos, em pé, braços atrás do corpo, usando Jeans e uma jaqueta, salmon reflexivo, descoladíssima!">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="ajuste-carrossel esq_2">
+            <img class="img-carrossel img-carrossel-desktop" src="./src/assets/Desktop/banner_carousel2_1440.png" class="d-block w-100" alt="Uma mulher jovem, negra de cabelo preto em coque sobre a cabeça, sentada com um elegante par de óculos escuros e um belissimo agasalho cinza com listras brancas.">
+            <img class="img-carrossel img-carrossel-tablet" src="./src/assets/Tablet/banner_carousel2_768.png" class="d-block w-100" alt="Uma mulher jovem, negra de cabelo preto em coque sobre a cabeça, sentada com um elegante par de óculos escuros e um belissimo agasalho cinza com listras brancas.">
+            <img class="img-carrossel img-carrossel-mobile" src="./src/assets/Mobile/banner_carousel2_375.png" class="d-block w-100" alt="Uma mulher jovem, negra de cabelo preto em coque sobre a cabeça, sentada com um elegante par de óculos escuros e um belissimo agasalho cinza com listras brancas.">
+          </div>  
+          <div class="carousel-caption translate-middle ajuste-carrossel-legenda-dir">
+            <h2 class="display-5">COLEÇÃO ATEMPORAL</h2>
+            <p class="legenda-imagem-p">Estilo e qualidade para durar.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="ajuste-carrossel dir_1">
+            <img class="img-carrossel img-carrossel-desktop" src="./src/assets/Desktop/banner_carousel3_1440.png" class="d-block w-100" alt="Um elegantíssimo rapaz negro, de óculos de grau e bigodes, vestindo uma camisa branca, jaqueta sport fino cinza, e um toque adicional de estilo com gravata borboleta preta e chapéu.">
+            <img class="img-carrossel img-carrossel-tablet" src="./src/assets/Tablet/banner_carousel3_768.png" class="d-block w-100" alt="Um elegantíssimo rapaz negro, de óculos de grau e bigodes, vestindo uma camisa branca, jaqueta sport fino cinza, e um toque adicional de estilo com gravata borboleta preta e chapéu.">
+            <img class="img-carrossel img-carrossel-mobile" src="./src/assets/Mobile/banner_carousel3_375.png" class="d-block w-100" alt="Um elegantíssimo rapaz negro, de óculos de grau e bigodes, vestindo uma camisa branca, jaqueta sport fino cinza, e um toque adicional de estilo com gravata borboleta preta e chapéu.">
+          </div>  
+          <div class="carousel-caption translate-middle ajuste-carrossel-legenda-esq">
+            <h2 class="display-5">COLEÇÃO ATEMPORAL</h2>
+            <p class="legenda-imagem-p">Alto impacto visual, baixo impacto ambiental!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev ajuste-carrossel-setas" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <img src="./src/assets/arrow_left_white_48dp.svg">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next ajuste-carrossel-setas" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <img src="./src/assets/arrow_right_white_48dp.svg">
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    
+    <main>
+      <section class="main-categorias" id="main-categorias">
+        <h2 class="title-categorias">Busque por Categoria:</h2>
+        <ul class="row row-cols-2 row-cols-md-3 row-cols-xxl-6 g-3 ajuste-lista-categorias" id="insert-categorias">
+          <!-- JS insere as Categorias -->
+        </ul>
+      </section>
+
+      <section class="main-produtos">
+        <h2 class="title-categorias">Produtos que estão bombando!</h2>
+        <div id="avisoFiltro" class="inativo"></div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xxl-3 g-3 card-group" id="insert-produtos">
+          <!--JS insere os card de Produtos-->
+        </div>
+      </section>
+
+      <section class="main-facilidades">
+        <h2 class="title-categorias">Conheça todas as nossas facilidades</h2>
+        <div class="row row-cols-1 row-cols-xxl-3 g-3" id="insert-facilidades">
+          <!--JS insere os card de Facilidades-->
+        </div>
+      </section>
+
+      <section class="main-newsletter col">
+        <div method="post" class="form-newsletter">
+          <p>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <strong>Cadastre-se!</strong></p>
+          <form action="" class="campo-email" id="newsletter-form">
+            <input type="email" class="campo-email-news" id="form__email" name="form__email" placeholder="Digite seu email" required>
+            <button type="submit" class="btn ajuste-btn-news" id="form__enviar" data-bs-toggle="modal" data-bs-target="#modal-news">enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>2023 © Desenvolvido por Alura</p>
+      <p>Projeto fictício sem fins comerciais.</p>
+      <P>Realizado pelo aluno: <a href="https://github.com/ElvesSchweppe">Elves K. Schweppe</a></P>
+    </footer>    
+
+    <!-- Modal id="modal-news" -->
+    <div class="modal fade" id="modal-news" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog ajuste-modal-news">
+        <div class="modal-content" id="insert-modal-news">
+          <!--JS decide o Modal de acordo com a validade do email-->      
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal id="modal-Produtos" -->
+    <div class="modal fade" id="modal-produto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog ajuste-modal-produtos">
+        <div class="modal-content" id="insert-modal-produto">
+          <!--JS decide o Modal de acordo com o código do produto-->      
+        </div>
+      </div>
+    </div>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="./src/js/buscarCategorias.js"></script>
+    <script src="./src/js/produtosBombando.js"></script>
+    <script src="./src/js/nossasFacilidades.js"></script>
+    <script src="./src/js/newsletter.js"></script>
+    <script src="./src/js/modalProdutos.js"></script>
+    <script src="./src/js/filtroCategoria.js"></script>
+    <script src="./src/js/dicionarioBusca.js"></script>
+    <script src="./src/js/buscarTextual.js"></script>
+  </body>
+
+</html>
