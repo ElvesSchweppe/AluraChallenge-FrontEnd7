@@ -61,6 +61,9 @@ botaoBuscar.addEventListener('click', ()=> {
         filtrarPorCodigo(produtos, valorDigitado)
         mostrarFiltro()
         campoDigitacao.value = ""
+        location.href = '#cardsProdutos'
     }
+
+    
 
 })
